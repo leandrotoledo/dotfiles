@@ -7,3 +7,6 @@ source ~/.autoenv/activate.sh
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+
+# Display date and time for history
+export HISTTIMEFORMAT="%d/%m/%y %T "
